@@ -17,6 +17,7 @@ class About extends Component {
     });
     console.log(this.input.value);
   }
+
   render() {
     return (
       <div>

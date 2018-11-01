@@ -1,0 +1,52 @@
+.from-wrapper {
+    display: block;
+    padding: 50px;
+    border: 1px solid #000;
+}
+
+from {
+    display: block;
+    margin: auto;
+}
+
+.from-wrapper input {
+    margin: 10px;
+    border: 1px solid #000;
+    width: 300px;
+}
+
+.error {
+    color: #f40;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    border: 1px solid #000;
+}
+
+.menu-name,
+.addList-name {
+    padding: 10px;
+    font-size: 16px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.add,
+.remove {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    background-color: #f40;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}

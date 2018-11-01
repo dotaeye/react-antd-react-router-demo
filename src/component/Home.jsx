@@ -63,6 +63,9 @@ class Home extends Component {
             <NavLink to={`/about/${this.state.input}`}>about</NavLink>
           </Col>
         </Row>
+        <h2>
+          <NavLink to="/from">进入from demo</NavLink>
+        </h2>
       </div>
     );
   }
